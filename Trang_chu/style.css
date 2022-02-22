@@ -1,0 +1,114 @@
+/* Css for all */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.remove-bor-bot{
+    border-bottom: none !important;
+}
+
+
+/* CSS for header */
+#header {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#header .header-container {
+    width: 80%;
+    display: flex;
+}
+
+.header-container .logo {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.header-container .logo img {
+    width: 100%;
+}
+
+.header-container .navigation {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    font-family: Archivo, sans-serif;
+}
+
+.header-container .nav {
+    display: flex;
+}
+
+.header-container .nav .first-nav {
+    padding: 0 8px;
+    position: relative;
+}
+
+.nav .first-nav>a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.nav .first-nav .header-icon {
+    margin-left: 2px;
+}
+
+.first-nav:hover>a{
+    color: #0b248e;
+}
+
+.first-nav .second-third {
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    position: absolute;
+    border: 1px solid #dadada;
+    display: none;
+}
+
+.first-nav .second-third>li {
+    padding: 7px 0px 7px 10px;
+}
+
+.second-third li{
+    border-bottom: 1px solid #000;
+}
+
+.second-third li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.first-nav:hover .second-nav {
+    display: block;
+    width: 218px;
+}
+
+.second-nav>li:hover>a {
+    color: #0b248e;
+}
+
+.begin-third-nav{
+    position: relative;
+}
+
+.third-nav {
+    position: absolute;
+    right: -218px;
+    top: 0;
+}
+
+.begin-third-nav:hover .third-nav{
+    display: block;
+    width: 218px;
+}
+
+.third-nav li:hover a {
+    color: #0b248e;
+}
