@@ -209,10 +209,75 @@ ul.date-category {
     clear: both;
 }
 
-.move-post-wrapper {
+.accordion {
+    background-color: rgb(255, 255, 255);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 1 solid rgba(rgba(168, 153, 153, 0.39), green, blue, alpha);
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  
+.active, .accordion:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+ 
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+.move-link{
     display: flex;
+    float: left;
+    
+}
+.move-post-wrapper .move-link .previous-link{
+    margin-right: 325px;
+}
+.move-post-wrapper .previous-link,
+.move-post-wrapper .next-link {
+    width: 200px;
+    height: 100px;
+}
+.other-container{
+    clear: both;
+}
+.other-container .other-heading {
+    color: #000 ;
+    font-family: "Arial", Sans-serif;
+    line-height: 1.3em;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.other-container .other-container-wrapper {
+    display: flex;
+    float: left;
 }
 
+.first-other-time {
+    font-size: 13px;
+}
+.other-container .first-other,
+.other-container .second-other,
+.other-container .third-other{
+    width: 245px;
+    height: 234px;
+    text-align: center;
+    
+}
+
+.clear-float-end-content {
+    height: 50px;
+    clear: both;
+}
 
 /* right */
 .content-wrapper .content-right {
@@ -298,77 +363,206 @@ ul.date-category {
     -webkit-transition: .2s ease;
     transition: .2s ease;
 }
-/* slider */
+
+
+
+
+/* co-op slider */
+.work-with {
+    clear: both;
+}
+.work-with .work-with-heading h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.work-with .work-with-container {
+    width: 100%;
+    position: relative;
+}
+
+.work-with .work-with-container .work-with-icon{
+    font-size: 20px;
+    position: absolute;
+    padding: 15px;
+    top: 40%;
+}
+
+.work-with-container .work-with-icon.right {
+    right: 20px;
+}
+
+.work-with-container .work-with-icon.left {
+    left: 20px;
+}
+
+.work-with-container .work-with-list {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.work-with-container .work-with-list .work-with-item {
+    width: 20%;
+    padding: 25px;
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.work-with-list .work-with-item img {
+    width: 100%;
+}
+
 
 /* footer */
-#footer {
+#footer .footer-container {
     display: flex;
-    clear: both;
-background-color: #2f319e;
-width: 100%;
-position: relative;
-padding-bottom: 50px;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #2f319e;
 }
-#footer .footer-content{
-  margin: 0 auto;
-width: 1280px;
-height: auto;
 
+#footer .footer-container .footer-list{
+    width: 80%;
+    margin: 50px 0;
+    display: flex;
 }
-.widget-footer{
-padding-top: 50px;
+
+#footer .footer-container .footer-list h1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
 }
-.widget-footer *{
-color: #fff;
+
+.footer-courses {
+    width: 30%;
 }
-.widget-footer .col-footer{
-float: left;
-width: 33%;
-max-width: 33%;
-height: auto;
+
+.footer-courses a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    line-height: 21px;
+    padding: 10px 0 10px 6px;
+    margin: 10px 0;
 }
-a{
-text-decoration: none;
+
+.footer-courses .logo {
+    width: 100%;
+    position: relative;
 }
-.widget-footer ul {
-list-style: none;
-} 
-.widget-footer ul li{
-margin-bottom: 0.7em;
+
+.footer-courses .logo a{
+    position: absolute;
+    color: #fff;
+    left: 15%;
 }
-.widget-footer ul li a{
-font-size: 16px;
-font-weight: bold;
+
+.footer-courses .logo a:hover {
+    text-decoration: underline;
 }
-.widget-footer h2{
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0px;
-text-transform: uppercase;
-margin-bottom: 15px;
+
+.footer-courses .logo img{
+    width: 90%;
 }
-ul.info li  a span {
-font-size: 16px;
-font-weight: 600;
-line-height: 25px;
-line-height: 40px;
-margin-bottom: 10px;
+
+.footer-contact {
+    width: 40%;
+    padding: 0 30px 0 30px;
 }
-.col-footer .col-inner{
-padding: 0 15px;
+
+.footer-contact .footer-contact-info li{
+    padding: 15px 0;
+    line-height: 40px;
+    cursor: pointer;
 }
-#footer select#select-form {
-background: #fff;
-color: #000;
+
+.footer-form {
+    width: 30%;
 }
-#footer select#select-form option {
-background: #fff;
-color: #000;
+
+.footer-form-list  {
+    margin-top: 30px;
 }
-body{
-overflow-x: hidden;
-height: auto;
-display: block;
-position: relative;
+
+.footer-form-list li {
+    /* background-color: #ededed; */
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-form-list li input,
+.footer-form-list .drop-down {
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    background-color: #ededed;
+    border: 1px solid #777771;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+}
+
+.footer-form-list .drop-down {
+    width: calc(100% - 15px);
+    color: #000;
+    font-weight: normal;
+    position: relative;
+}
+
+.footer-form-list .drop-down i{
+    position: absolute;
+    right: 15px;
+}
+
+.footer-form-list .drop-down .footer-sub-menu{
+    display: none;
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    width: 100%;
+    background-color: #ededed;
+}
+
+.footer-form-list .drop-down .footer-sub-menu li{
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.footer-form-list .drop-down input {
+    width: 95%;
+    border: 1px solid #17a8e3;
+}
+
+.footer-form-list .drop-down:hover .footer-sub-menu{
+    display: block;
+}
+
+.footer-form-list  .btn{
+    width: calc(100% - 5px);
+    margin-top: 30px;
+}
+
+.footer-form-list  .btn input{
+    background-color: #edb017;
+    color: #000;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.footer-form-list  .btn input:hover{
+    cursor: pointer;
+    background-color: #008fca;
+    color: #fff;
+}
+
+.footer-contact .footer-contact-info li,
+.footer-form .footer-form-list li {
+    list-style: none;
 }
