@@ -1,0 +1,374 @@
+/* Css for all */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.remove-bor-bot{
+    border-bottom: none !important;
+}
+
+
+/* CSS for header */
+#header {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#header .header-container {
+    width: 80%;
+    display: flex;
+}
+
+.header-container .logo {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.header-container .logo img {
+    width: 100%;
+}
+
+
+.first-paragraph {
+    clear: both;
+}
+
+
+
+ul.date-category li.aplech {
+    padding-left: 20px;
+}
+.header-container .navigation {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    font-family: Archivo, sans-serif;
+}
+
+.header-container .nav {
+    list-style: none;
+    display: flex;
+}
+
+.header-container .nav .first-nav {
+    padding: 0 8px;
+    position: relative;
+}
+
+.nav .first-nav>a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.nav .first-nav .header-icon {
+    margin-left: 2px;
+}
+
+.first-nav:hover>a{
+    color: #0b248e;
+}
+
+.first-nav .second-third {
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    position: absolute;
+    border: 1px solid #dadada;
+    display: none;
+}
+
+.first-nav .second-third>li {
+    padding: 7px 0px 7px 10px;
+}
+
+.second-third li{
+    border-bottom: 1px solid #000;
+}
+
+.second-third li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.first-nav:hover .second-nav {
+    display: block;
+    width: 218px;
+}
+
+.second-nav>li:hover>a {
+    color: #0b248e;
+}
+
+.begin-third-nav{
+    position: relative;
+}
+
+.third-nav {
+    position: absolute;
+    right: -218px;
+    top: 0;
+}
+
+.begin-third-nav:hover .third-nav{
+    display: block;
+    width: 218px;
+}
+
+.third-nav li:hover a {
+    color: #0b248e;
+}
+
+.content-wrapper {
+    margin:0 auto;
+    width: 80%;
+    height: auto ;
+
+}
+
+/* .content-left */
+.content-wrapper .content-left {
+    float: left;
+    position: relative;
+    width: 70%;
+}
+
+.content-left .col-inner{
+    padding: 0 30px 15px;
+}
+
+.content-left .time-location {
+
+   color: #000;
+}
+
+/* .content-left .first-paragrahp {
+    padding: 10px;
+} */
+
+#one-para .first-paragraph-header {
+    height: 30px;
+    font-family: Arial, Sans-serif;
+    color: #000;
+    font-size: 19px;
+    line-height: 1.9;
+    text-align: center; 
+    font-weight: bolder;
+
+}
+
+
+.content-left .col-inner .p1-content,
+.second-paragraph .second-paragraph-li {
+    text-align: justify;
+    line-height: 2;
+}
+
+.content_Area {
+    text-align: justify;
+}
+
+.second-paragraph .second-paragraph-header ,
+.third-paragraph .third-paragraph-header{
+    color: #0B249E ;
+    font-family: "Arial", Sans-serif;
+    line-height: 1.3em;
+    font-weight: bold;
+
+}
+
+.third-paragraph li {
+    line-height: 1.9;
+}
+
+.nine-para-list li {
+    line-height: 1.5;
+
+}
+.content-left .col-inner .second-paragraph
+{
+    padding: 7px 0;
+}
+ul.date-category {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    float: left;
+    list-style: none;
+    margin: 20px 0 40px;
+    padding: 0;
+    border-bottom: 1px solid rgba(184, 165, 165, 0.596);
+}
+
+.likeshare-wrapper {
+    clear: both;
+}
+
+.move-post-wrapper {
+    display: flex;
+}
+
+
+/* right */
+.content-wrapper .content-right {
+    height: 100% ; 
+    width: 30%;
+    float: right;
+    position: relative;
+    
+}
+
+.content-right .col-inner{
+    padding-left: 50px;
+}
+
+.sidebar-schoolar {
+    margin-top: 50px;
+}
+.sidebar-tittle {
+    font-size: initial;
+    border-left: solid #0000b5;
+    padding-left: 10px;
+}
+
+.sidebar {
+    margin-top: 40px;
+}
+
+#sidebar-news .news {
+    color: #000;
+    font-family: "Arial", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-decoration: none;
+}
+
+.form_widget  input.form-input {
+    border: 1px solid #777;
+    background-color: #EDEDED;
+    color: #333333;
+    margin-bottom: 10px;
+    line-height: 1.3em;
+    padding: 9px;
+    border-radius: 2px;
+    display: inline-block;
+    width: 94%;
+}
+
+.form_widget  select#select-form {
+    display: inline-block;
+    min-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 6px 12px;
+    vertical-align: middle;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.button-submit {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #edb017;
+    color: #0a0a0a;
+    width: 100%;
+    min-width: 100px;
+    max-width: unset;
+    height: auto;
+    min-height: unset;
+    max-height: unset;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    margin: 0 10px 0 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+    background-image: unset;
+    line-height: 1.45em;
+    text-align: center;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+}
+/* slider */
+
+/* footer */
+#footer {
+    display: flex;
+    clear: both;
+background-color: #2f319e;
+width: 100%;
+position: relative;
+padding-bottom: 50px;
+}
+#footer .footer-content{
+  margin: 0 auto;
+width: 1280px;
+height: auto;
+
+}
+.widget-footer{
+padding-top: 50px;
+}
+.widget-footer *{
+color: #fff;
+}
+.widget-footer .col-footer{
+float: left;
+width: 33%;
+max-width: 33%;
+height: auto;
+}
+a{
+text-decoration: none;
+}
+.widget-footer ul {
+list-style: none;
+} 
+.widget-footer ul li{
+margin-bottom: 0.7em;
+}
+.widget-footer ul li a{
+font-size: 16px;
+font-weight: bold;
+}
+.widget-footer h2{
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+ul.info li  a span {
+font-size: 16px;
+font-weight: 600;
+line-height: 25px;
+line-height: 40px;
+margin-bottom: 10px;
+}
+.col-footer .col-inner{
+padding: 0 15px;
+}
+#footer select#select-form {
+background: #fff;
+color: #000;
+}
+#footer select#select-form option {
+background: #fff;
+color: #000;
+}
+body{
+overflow-x: hidden;
+height: auto;
+display: block;
+position: relative;
+}
