@@ -279,6 +279,11 @@ ul.date-category {
     clear: both;
 }
 
+.other-div {
+    height: 153px;
+    width: 248px;
+}
+
 /* right */
 .content-wrapper .content-right {
     height: 100% ; 
@@ -299,7 +304,10 @@ ul.date-category {
     font-size: initial;
     border-left: solid #0000b5;
     padding-left: 10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
 }
+
 
 .sidebar {
     margin-top: 40px;
