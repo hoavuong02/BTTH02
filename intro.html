@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/intro.css">
+    <link rel="stylesheet" href="./Assets/template/header.css">
+    <link rel="stylesheet" href="./Assets/css/training_animation.css">
     <script src="https://kit.fontawesome.com/35e0c69777.js" crossorigin="anonymous"></script>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v13.0" nonce="S2GLksjM"></script>
@@ -15,65 +17,127 @@
 </head>
 <body>
     <div class="main">
-        <div id="header">
-            <div class="header-container">
-                <div class="logo">
-                    <img src="./Assets/imgs/img_intro/logo.png" alt="">
-                </div>
-                <div class="navigation">
-                    <ul class="nav">
-                        <li class="first-nav"><a href="#">Trang chủ</a></li>
-                        <li class="first-nav">
-                            <a href="#">hanoi-aptech</a><i classA="header-icon fa-solid fa-chevron-down"></i>
-                            <ul class="second-third second-nav">
-                                <li><a href="#">Giới thiệu</a></li>
-                                <li><a href="#">Cơ sở vật chất</a></li>
-                                <li><a href="#">Giảng viên</a></li>
-                                <li class="remove-bor-bot"><a href="#">Hỏi đáp</a></li>
-                            </ul>
-                        </li>
-                        <li class="first-nav">
-                            <a href="#">chương trình đào tạo</a>
-                            <i class="header-icon fa-solid fa-chevron-down"></i>
-                            <ul class="second-third second-nav">
-                                <li><a href="#">Lập Trình Viên Quốc Tế ADSE</a></li>
-                                <li><a href="#">Lập Trình Web FullStack</a></li>
-                                <li class="remove-bor-bot begin-third-nav">
-                                    <a href="#">Các khóa ngắn hạn</a>
-                                    <i class="header-icon fa-solid fa-chevron-down"></i>
-                                    <ul class="second-third third-nav">
-                                        <li><a href="#">Khóa Quản Trị Mạng</a></li>
-                                        <li><a href="#">Lập trình Java</a></li>
-                                        <li><a href="#">Lập trình .NET</a>T</li>
-                                        <li><a href="#">Lập trình C#</a></li>
-                                        <li><a href="#">Lập trình PHP</a></li>
-                                        <li class="remove-bor-bot"><a href="#">Lập trình CSDL với SQL</a></li>
+        <div class="header">
+            <div class="grid wide">
+                <div class="header-wraper">
+                    <div class="header-wraper__logo">
+                        <a href="" class="header-wraper__logolink">
+                            <img src="./Assets/imgs/img_training/LOGO-APTECH-03-02-1.png" alt="Logo Aptech">
+                        </a>
+                    </div>
+
+                        <div class="header-wraper__nav">
+                            <ul class="header-wraper__nav-list">
+                                <li class="header-wraper-item">
+                                    <a href="" class="header-wraper-item__link">Trang chủ</a>
+                                </li>
+
+                                <li class="header-wraper-item">
+                                    <a href="" class="header-wraper-item__link">Hanoi-aptech
+                                        <i class="header-icon fa-solid fa-chevron-down"></i>
+                                    </a>
+
+                                    <ul class="header-subnav-list">
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Giới thiệu</a>
+                                        </li>
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Cơ sở vật chất</a>
+                                        </li>
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Giảng Viên</a>
+                                        </li>
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Hỏi đáp</a>
+                                        </li>
+                                    </ul>
+                                    
+                                </li>
+
+                                <li class="header-wraper-item">
+                                    <a href="" class="header-wraper-item__link">chương trình đào tạo
+                                        <i class="header-icon fa-solid fa-chevron-down"></i>
+                                    </a>
+
+                                    <ul class="header-subnav-list">
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Lập trình viên quốc tế</a>
+                                        </li>
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Lập trình web fullstack</a>
+                                        </li>
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Các khóa ngắn hạn
+                                                    <i class="header-icon-subnav fa-solid fa-chevron-down"></i>
+
+                                            </a>
+
+                                                <ul class="header-subsubnav-list">
+                                                    <li class="header-subsubnav-item">
+                                                        <a href="" class="header-subsubnav-link">Khóa quản trị mạng</a>
+                                                    </li>
+                                                    <li class="header-subsubnav-item">
+                                                        <a href="" class="header-subsubnav-link">Lập trình Java</a>
+                                                    </li>
+                                                    <li class="header-subsubnav-item">
+                                                        <a href="" class="header-subsubnav-link">Lập Trình .NET</a>
+                                                    </li>
+                                                    <li class="header-subsubnav-item">
+                                                        <a href="" class="header-subsubnav-link">Lập trình C#</a>
+                                                    </li>
+                                                    <li class="header-subsubnav-item">
+                                                        <a href="" class="header-subsubnav-link">Lập Trình PHP</a>
+                                                    </li>
+                                                    <li class="header-subsubnav-item">
+                                                        <a href="" class="header-subsubnav-link">Lập trình CSDL với SQL</a>
+                                                    </li>
+                                                </ul>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+
+                                <li class="header-wraper-item">
+                                    <a href="" class="header-wraper-item__link">liên thông</a>
+                                </li>
+
+                                <li class="header-wraper-item">
+                                    <a href="" class="header-wraper-item__link">tin tức
+                                        <i class="header-icon fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="header-subnav-list">
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Tin về CNTT</a>
+                                        </li>
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Lịch Thi</a>
+                                        </li>
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Lịch Tuyển Sinh</a>
+                                        </li>
+                                
+                                    </ul>
+                                </li>
+
+                                <li class="header-wraper-item">
+                                    <a href="" class="header-wraper-item__link">tuyển dụng
+                                        <i class="header-icon fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="header-subnav-list">
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Tin tuyển dụng</a>
+                                        </li>
+                                        <li class="header-subnav-item">
+                                            <a href="" class="header-subnav-item__link">Góc nghề nghiệp</a>
+                                        </li>
+                                       
                                     </ul>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="first-nav"><a href="#">liên thông</a></li>
-                        <li class="first-nav">
-                            <a href="#">tin tức</a>
-                            <i class="header-icon fa-solid fa-chevron-down"></i>
-                            <ul class="second-third second-nav">
-                                <li><a href="#">Tin về CNTT</a></li>
-                                <li><a href="#">Lịch thi</a></li>
-                                <li class="remove-bor-bot"><a href="#">Lịch tuyển sinh</a></li>
-                            </ul>
-                        </li>
-                        <li class="first-nav">
-                            <a href="#">tuyển dụng</a>
-                            <i class="header-icon fa-solid fa-chevron-down"></i>
-                            <ul class="second-third second-nav">
-                                <li><a href="#">Tin tuyển dụng</a></li>
-                                <li class="remove-bor-bot"><a href="#">Góc nghề nghiệp</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                        </div>
                 </div>
             </div>
-        </div>        
+        </div>
         <div class="main-content">
             <div class="content-wrapper container">
                 <div class="content-left">
@@ -275,23 +339,23 @@
                                 <h1 class="other-heading"><i class="fa-solid fa-chevron-right"></i>  you may also like</h1>
                                 <div class="other-container-wrapper">
                                     <div class="first-other">
-                                        <a href="https://aptech.vn/hanoi-aptech/hanoi-aptech-mang-bitcard-nhan-combo-tai-fafim-cinema.html">
+                                        <a style="text-decoration: none;" href="https://aptech.vn/hanoi-aptech/hanoi-aptech-mang-bitcard-nhan-combo-tai-fafim-cinema.html">
                                             <img width="240px" height="148px" src="./Assets/imgs/img_intro/other/other1.jpg" alt="">
-                                            <p style="color: #000;">{Hanoi-Aptech}: Mang Bitcard – Nhận combo tại Fafim Cinema</p>
+                                            <p style="color: #000;padding: 10px 0;">{Hanoi-Aptech}: Mang Bitcard – Nhận combo tại Fafim Cinema</p>
                                         </a>    
                                         <div class="first-other-time"  class="time-location"><i class="far fa-clock"></i> 16/03/2016</div>
                                     </div>
                                     <div class="second-other">
-                                        <a href="https://aptech.vn/hanoi-aptech/vccorp-tuyen-dung-php-developer-net-developer.html">
+                                        <a style="text-decoration: none;" href="https://aptech.vn/hanoi-aptech/vccorp-tuyen-dung-php-developer-net-developer.html">
                                             <img width="240px" height="148px" src="./Assets/imgs/img_intro/other/other2.jpg" alt="">
-                                            <p style="color: #000;">VCCorp tuyển dụng lập trình viên PHP</p>
+                                            <p style="color: #000;padding: 10px 0;text-decoration: none;">VCCorp tuyển dụng lập trình viên PHP</p>
                                         </a>
                                         <div class="first-other-time" class="time-location"><i class="far fa-clock"></i> 28/12/2015</div>
                                     </div>
                                     <div class="third-other">
-                                        <a href="https://aptech.vn/hanoi-aptech/tt99-tuyen-lap-trinh-game-tren-di-dong.html">
+                                        <a style="text-decoration: none;" href="https://aptech.vn/hanoi-aptech/tt99-tuyen-lap-trinh-game-tren-di-dong.html">
                                             <img width="240px" height="148px" src="./Assets/imgs/img_intro/other/other3.jpg" alt="">
-                                            <p style="color: #000;">TT99 tuyển lập trình game trên di động</p>
+                                            <p style="color: #000;padding: 10px 0;">TT99 tuyển lập trình game trên di động</p>
                                         </a>    
                                         <div class="first-other-time" class="time-location"><i class="far fa-clock"></i> 13/06/2016</div>
                                     </div>  

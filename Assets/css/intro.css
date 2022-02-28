@@ -9,133 +9,16 @@ body {
 
 
 /* CSS for header */
-#header {
-    height: 90px;
-    display: flex;
-    justify-content: center;
-}
-
-#header .header-container {
-    width: 80%;
-    display: flex;
-}
-
-.header-container .logo {
-    width: 25%;
-    display: flex;
-    align-items: center;
-}
-
-.header-container .logo img {
-    width: 100%;
-}
-
-
-.first-paragraph {
-    clear: both;
-}
-
-
-
-ul.date-category li.aplech {
-    padding-left: 20px;
-}
-.header-container .navigation {
-    width: 75%;
-    display: flex;
-    align-items: center;
-    font-family: Archivo, sans-serif;
-}
-
-.header-container .nav {
-    list-style: none;
-    display: flex;
-}
-
-.header-container .nav .first-nav {
-    padding: 0 8px;
-    position: relative;
-}
-
-.nav .first-nav>a {
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #000;
-}
-
-.nav .first-nav .header-icon {
-    margin-left: 2px;
-}
-
-.first-nav:hover>a{
-    color: #0b248e;
-}
-
-.first-nav .second-third {
-    padding: 10px 0;
-    background-color: #f4f4f4;
-    position: absolute;
-    border: 1px solid #dadada;
-    display: none;
-}
-
-.first-nav .second-third>li {
-    padding: 7px 0px 7px 10px;
-}
-
-.second-third li{
-    border-bottom: 1px solid #000;
-}
-
-.second-third li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.first-nav:hover .second-nav {
-    display: block;
-    width: 218px;
-}
-
-.second-nav>li:hover>a {
-    color: #0b248e;
-}
-
-.begin-third-nav{
-    position: relative;
-}
-
-.third-nav {
-    position: absolute;
-    right: -218px;
-    top: 0;
-}
-
-.begin-third-nav:hover .third-nav{
-    display: block;
-    width: 218px;
-}
-
-.third-nav li:hover a {
-    color: #0b248e;
-}
-
-.content-wrapper {
-    margin:0 auto;
-    width: 80%;
-    height: auto ;
-
+.header {
+    box-shadow: none !important;
 }
 
 /* .content-left */
 .content-wrapper .content-left {
+    margin-left: 113px;
     float: left;
     position: relative;
-    width: 70%;
+    width: 55%;
 }
 
 .content-left .col-inner{
@@ -152,6 +35,7 @@ ul.date-category li.aplech {
 } */
 
 #one-para .first-paragraph-header {
+    padding-bottom: 14px;
     height: 30px;
     font-family: Arial, Sans-serif;
     color: #000;
@@ -177,7 +61,7 @@ ul.date-category li.aplech {
 .third-paragraph .third-paragraph-header{
     color: #0B249E ;
     font-family: "Arial", Sans-serif;
-    line-height: 1.3em;
+    line-height: 3.3em;
     font-weight: bold;
 
 }
@@ -234,12 +118,13 @@ ul.date-category {
     overflow: hidden;
   }
 .move-link{
+    margin-top: 30px;
     display: flex;
     float: left;
     
 }
 .move-post-wrapper .move-link .previous-link{
-    margin-right: 325px;
+    margin-right: 335px;
 }
 .move-post-wrapper .previous-link,
 .move-post-wrapper .next-link {
@@ -256,6 +141,7 @@ ul.date-category {
     font-weight: bold;
     font-size: 17px;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 .other-container .other-container-wrapper {
     display: flex;
@@ -286,13 +172,16 @@ ul.date-category {
 
 /* right */
 .content-wrapper .content-right {
+    margin-right: 34px;
     height: 100% ; 
     width: 30%;
     float: right;
     position: relative;
     
 }
-
+.col-inner .widget {
+    margin-top: 20px;
+}
 .content-right .col-inner{
     padding-left: 50px;
 }
@@ -311,6 +200,9 @@ ul.date-category {
 
 .sidebar {
     margin-top: 40px;
+}
+#sidebar-news{
+    width: 300px;
 }
 
 #sidebar-news .news {
@@ -331,13 +223,13 @@ ul.date-category {
     padding: 9px;
     border-radius: 2px;
     display: inline-block;
-    width: 94%;
+    width: 73%;
 }
 
 .form_widget  select#select-form {
     display: inline-block;
     min-height: 40px;
-    width: 100%;
+    width: 78%;
     font-size: 14px;
     line-height: 1.8;
     padding: 6px 12px;
@@ -352,7 +244,7 @@ ul.date-category {
     font-weight: bold;
     background-color: #edb017;
     color: #0a0a0a;
-    width: 100%;
+    width: 78%;
     min-width: 100px;
     max-width: unset;
     height: auto;
