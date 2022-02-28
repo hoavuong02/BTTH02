@@ -42,6 +42,7 @@
     left: -16px;
     transform-origin: top;
     animation: un-spread 0.3s linear;
+    z-index: 9;
 }
 .header-wraper-item:hover .header-subnav-list{
     display: block;
