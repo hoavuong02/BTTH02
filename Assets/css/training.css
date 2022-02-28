@@ -342,7 +342,20 @@ html{
 .registration-form{
     width: 50%;
 }
-
+.section{
+    display: block;
+    width: 525px;
+    height: 39px;
+    border: none;
+    outline: none;
+    padding: 0 18px;
+    margin-left: 52px;
+    background-color: #EDEDED;
+    color: #333333;
+    font-size: 17px;
+    border-radius: 2px;
+    margin: 19px 53px;
+}
 .registration-form-content1{
     font-family: "Arial", Sans-serif;
     font-size: 25px;
@@ -365,7 +378,7 @@ html{
 }
 .registration-btn{
     display: block;
-    width: 491px;
+    width: 523px;
     height: 46px;
     border: none;
     outline: none;
@@ -379,6 +392,7 @@ html{
     margin-top: 46px;
     margin-bottom: 72px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .registration-btn:hover{
     background-color: #008FBA;
@@ -657,7 +671,20 @@ html{
     color: #FFF;
     margin-left: 53px;
 }
-
+.section2{
+    display: block;
+    width: 439px;
+    height: 39px;
+    border: none;
+    outline: none;
+    padding: 0 18px;
+    margin-left: 52px;
+    background-color: #EDEDED;
+    color: #333333;
+    font-size: 17px;
+    border-radius: 2px;
+    margin: 19px 53px;
+}
 .footer-box3-wrapper input{
     width: 100%;
 }
@@ -676,7 +703,7 @@ html{
 
 .footer-box3-btn__link button{
     display: block;
-    width: 406px;
+    width: 439px;
     height: 46px;
     border: none;
     outline: none;
@@ -691,12 +718,12 @@ html{
     margin-bottom: 72px;
     text-transform: uppercase;
     font-weight: 500;
+    cursor: pointer;
 }
 .footer-box3-btn__link button:hover{
     background-color: #008FCA;
     color: #FFFFFF;
 }
-
 
 
 
