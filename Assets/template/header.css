@@ -1,0 +1,115 @@
+.header{
+    height: 90px;
+    background-color: #FEFEFE;
+    box-shadow: 1px 2px 11px rgba(0, 0, 0, 0.3);
+}
+.header-wraper{
+    display: flex;
+}
+
+.header-wraper__logolink img{
+    width: 244px;
+    margin-top: 12px;
+}
+.header-wraper__nav{
+    width: 100%;
+    line-height: 90px;
+}
+.header-wraper__nav-list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 38px;
+    font-weight: 600;
+}
+.header-wraper-item{
+    
+    position: relative;
+}
+.header-wraper-item__link{
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 15px;
+   display: block;
+}
+.header-subnav-list{
+    display: none;  
+    position: absolute;
+    background-color: #F0F0F0;
+    width: 222px;
+    box-shadow: -1px 1px 2px rgb(0 0 0 / 19%);
+    top: 67px;
+    left: -16px;
+    transform-origin: top;
+    animation: un-spread 0.3s linear;
+}
+.header-wraper-item:hover .header-subnav-list{
+    display: block;
+    animation: spread 0.3s linear forwards;
+
+}
+
+
+.header-subnav-item{
+    height: 40px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #707073;
+    position: relative;
+}
+.header-subnav-item:last-child,.header-subsubnav-item:last-child{
+    border: none;
+}
+.header-subnav-item__link{
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: -25px;
+    padding: 7px 0px 7px 10px;
+    font-size: 14px;
+    color: #000000;
+
+}
+
+.header-subnav-item__link:hover,.header-subsubnav-link:hover{
+    color: #0B249E;
+}
+
+.header-icon-subnav{
+    position: absolute;
+    top: -3px;
+    margin-left: 64px;
+}
+.header-subsubnav-list{
+    position: absolute;
+    width: 222px;
+    box-shadow: -1px 1px 2px rgb(0 0 0 / 19%);
+    top: -3px;
+    left: 223px;
+    background-color: #F0F0F0;
+    display: none;
+    /* transform: scaleY(0); */
+    transform-origin: top;
+    animation: un-spread 0.3s linear;
+}
+.header-subnav-item:hover .header-subsubnav-list{
+    display: block;
+    animation: spread 0.3s linear forwards;
+}
+.header-subsubnav-item{
+    height: 40px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #707073;
+}
+.header-subsubnav-link{
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: -25px;
+    padding: 7px 0px 7px 10px;
+    font-size: 14px;
+    color: #000000;
+}

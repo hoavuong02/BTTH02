@@ -1,0 +1,45 @@
+.friend-container{
+    position: relative;
+    padding: 0 0 115px 0;
+}
+
+.friend-content h1{
+    font-family: "Arial", Sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 49px 0 85px;
+}
+.friend-logo{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    padding: 0 16px;
+    transition: 0.5s;
+}
+.friend-logo-img{
+    padding: 0px 44px;
+}
+.friend-logo-img img{
+    width: 200px;
+    height: auto;
+}
+.gallery{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 30px;
+    cursor: pointer;
+    height: 72%;
+    align-items: center;
+}
+.control1{
+    margin-left: 18px;
+} 
+
+.control2 i{
+    margin-right: 18px;
+}
